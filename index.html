@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Praca Zdalna z Nami</title>
+<style>
+    body, html {
+        height: 100%;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        color: white; /* Zmieniamy kolor tekstu na biały dla lepszej widoczności na tle */
+    }
+    .bg {
+        /* Zdjęcie tła */
+        background-image: url(https://github.com/OzgaRekrutacja/AdrianaOzgaRekrutacja.pl/blob/main/462536745_543073415085849_8473631177212451995_n.jpg?raw=true); /* Wstaw tutaj URL do swojego zdjęcia */
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container {
+        text-align: center;
+        padding: 20px;
+        background: rgba(0, 0, 0, 0.7); /* Przezroczyste czarne tło dla tekstów */
+        border-radius: 8px;
+        max-width: 600px;
+    }
+    h2, h3 {
+        margin: 10px 0;
+    }
+    .whatsapp-button {
+        display: inline-block;
+        background-color: #25D366;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        margin-top: 20px;
+    }
+    .whatsapp-button:hover {
+        background-color: #128C7E;
+    }
+    .steps p::before {
+        content: counter(step) ". ";
+        counter-increment: step;
+        font-weight: bold;
+    }
+    .steps {
+        counter-reset: step;
+    }
+</style>
+</head>
+<body>
+
+<div class="bg">
+    <div class="container">
+        <h2>Zacznij zarabiać online z nami!</h2>
+        <p>Dziękuję za zainteresowanie ofertą. Jeśli chcesz dowiedzieć się więcej o współpracy, skontaktuj się przez WhatsApp.</p>
+        
+        <div class="steps">
+            <p>**Skontaktuj się ze mną przez WhatsApp:** Kliknij ikonę w prawym dolnym rogu lub użyj numeru **795649340**.</p>
+            <p>**Bezpośrednia rozmowa:** Wyjaśnię wszystkie szczegóły i odpowiem na Twoje pytania.</p>
+        </div>
+
+        <h3>Czego Cię nauczę?</h3>
+        <ul>
+            <li>Jak zarabiać online od A do Z.</li>   
+            <li>Jak efektywnie zarządzać czasem i zasobami.</li>
+        </ul>
+
+        <h3>Dlaczego warto?</h3>
+        <ul>
+            <li>**Szkolenia:** Otrzymasz pełne wsparcie.</li>
+            <li>**Współpraca:** Praca z renomowanymi firmami.</li>
+            <li>**Rozwój osobisty:** Nowe umiejętności na całe życie.</li>
+        </ul>
+
+        <a href="https://wa.me/48795649340" class="whatsapp-button">Napisz na WhatsApp</a>
+    </div>
+</div>
+
+</body>
+</html>
